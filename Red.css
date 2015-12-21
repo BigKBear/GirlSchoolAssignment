@@ -2,26 +2,6 @@
 any class with the name container would have these properties.*/
 .container { position:relative; padding:0 0 0 55px; }
 
-/*class for drop down menu*/
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-	float:left;
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 /*this is the css for the side bar
 the image is selected here
 the repeat is set for the image along the y axis only
@@ -30,12 +10,13 @@ the width is set to 100 pixels
 for the positioning please read more on absolute and the propoties
 top bottom left*/
 #sidebar {
+	float: right;
     position:absolute;
     top:0; 
     bottom:0; 
     left:0;
     width:100px;
-    background: url("images/maxresdefault.jpg");
+    background: url("PNG/ops3.png");
     background-repeat: repeat-y; 
 }
 
@@ -57,17 +38,38 @@ and set it not to repeat*/
 	width: 700px;
 	float: left;
 	height: 100%;
-	background-color: Green;
 	margin-left: auto;
 	margin-right: auto;
-}
+	background: url("PNG/page_bg.png") no-repeat left bottom green;
+}	
 
 #download{
-	width: 300px;
+	background-attachment: fixed;
 	height: 100px;
 	margin: 15px;
 	border: 2px solid red;
 	text-align: right;
+}
+
+
+/*class for drop down menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	float:left;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #yoda{
@@ -139,7 +141,6 @@ body{
 	margin-right: auto;
 	width: 700px;
 	text-align: center;
-	background-color: silver;
 }
 
 video{

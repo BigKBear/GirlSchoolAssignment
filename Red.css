@@ -25,7 +25,7 @@ the image used and the stretching of the image
 and set it not to repeat*/
 #header { 
 	width:700px; height:300px;
-    background: url("images/WOD.jpg");
+    background: url("PNG/banner1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }

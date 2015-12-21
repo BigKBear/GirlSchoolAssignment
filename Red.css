@@ -1,7 +1,10 @@
-#redstone{
+
+#redstone{i dont see them in the web assignment folder
+
+hey are there now in the web assignment folder
 	width: 750px;
 	float: left;
-	height: 950px;
+	height: 100%;
 	background-color: Green;
 	margin-left: auto;
 	margin-right: auto;
@@ -121,7 +124,7 @@ li:hover ul {
   	position: absolute;
 }
 
-li:hover li {0
+li:hover li {
   	float: none;
 }
 
